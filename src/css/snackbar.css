@@ -1,0 +1,79 @@
+.form {
+  margin: 0 auto;
+  max-width: 360px;
+}
+.number-label {
+  display: block;
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.number-input {
+  width: 100%;
+  outline: transparent;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+}
+.number-input::-webkit-inner-spin-button,
+.number-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.number-input:hover {
+  border: 1px solid #000;
+}
+.number-input:focus {
+  border: 1px solid #4e75ff;
+}
+.number-input:hover::-webkit-inner-spin-button,
+.number-input:hover::-webkit-outer-spin-button {
+  -webkit-appearance: button;
+  margin: 1px;
+}
+.number-input:focus::-webkit-inner-spin-button,
+.number-input:focus::-webkit-outer-spin-button {
+  -webkit-appearance: button;
+  margin: 1px;
+}
+fieldset {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  margin-bottom: 24px;
+  height: 64px;
+  padding: 0;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+.radio-label {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+.form-btn {
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  border-radius: 8px;
+  padding: 8px 16px;
+  height: 40px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.form-btn:hover,
+.form-btn:focus {
+  background-color: #6c8cff;
+}
